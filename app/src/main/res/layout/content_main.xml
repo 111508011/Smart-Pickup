@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pratham.demo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Map"
+        android:visibility="invisible"
+        android:id="@+id/gotomap"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to current location"
+        android:id="@+id/gotocurrentlocation"
+        android:visibility="invisible"
+        android:layout_below="@id/gotomap"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seekbar"
+        android:id="@+id/gotoseek"
+        android:visibility="invisible"
+        android:background="@drawable/custom_button_shape"
+        android:layout_below="@id/gotocurrentlocation"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonDistancce"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gotoseek"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Distance" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Location"
+        android:visibility="invisible"
+        android:layout_below="@+id/buttonDistancce"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/shareLocation"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open map"
+        android:visibility="invisible"
+        android:layout_below="@+id/shareLocation"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/openmap"/>
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google"
+        android:layout_below="@+id/openmap"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:text="Login with Google"
+        android:textColor="@android:color/white" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:visibility="invisible"
+        android:id="@+id/goHome"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/google"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Owner"
+        android:visibility="invisible"
+        android:id="@+id/goHomeOwner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/goHome"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42A5F5</color>
+    <color name="colorPrimaryDark">#42A5F5</color>
+    <color name="colorAccent">#ff5252</color>
+    <color name="fill_color">#2196f3</color>
+    <color name="stroke_color">#2196f3</color>
+    <color name="blue_back">#7986CB</color>
+    <color name="but_color">#3F51B5</color>
+    <color name="splash_back">#D1C4E9</color>
+    <color name="accent_material_light">#4e8781</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ride Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_circle">Draw Circle</string>
+    <string name="action_overlay">Draw Overlay</string>
+    <string name="action_polygon">Draw Polygon</string>
+    <string name="action_traffic">Toggle Traffic</string>
+    <string name="action_cycle_map_type">Cycle Map Type</string>
+
+    <string name="dialog_play_services_unavailable">Google Play Services are unavailable.</string>
+    <string name="dialog_download_play_services">Download Play Services</string>
+    <string name="dialog_close_program">Close Program</string>
+
+    <string name="title_activity_start_acitivity">StartAcitivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="server_client_id">876648960444-gvk7aj6nmafkomph6utfqn0vn0tcl6en.apps.googleusercontent.com</string>
+</resources>
